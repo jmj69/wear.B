@@ -81,3 +81,16 @@ body{
     text-decoration: none;
     color: white;
 }
+
+.slogan{
+    text-align: center;
+    background-color: #5da9e9;
+    font-family: Inter;
+    font-size: larger;
+    color: white;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 30px;
+    line-height: 45px;
+    padding-bottom: 50px;
+}
