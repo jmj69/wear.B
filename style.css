@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:wght@300&display=swap');
+
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0; 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5da9e9;
+    max-height: 50px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.titre{
+    font-family: Inter;
+    padding-right: 220px;
+    padding-left: 20px;
+    color: #1d3461;
+    text-shadow: 1px 1.5px 1.5px #1d3461;
+}
+
+.flag, .loupe{
+    width: 2.5%;
+    cursor: pointer;
+}
+
+.ip{
+    font-family: Inter;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #1d3461;
+}
+
+.asso{
+    border: #5da9e9;
+    border-radius: 15px;
+    color: #5da9e9;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px #1d3461;
+}
