@@ -94,3 +94,52 @@ body{
     line-height: 45px;
     padding-bottom: 50px;
 }
+
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5da9e9;
+    padding-left: 70px;
+    padding-right: 70px;   
+    max-height: 2px;
+}
+
+.in1, .in2, .in3{
+border-radius: 5px;
+border: 2px solid #1d3461;
+font-size: smaller;
+}
+
+.in1{
+    background-image: url(/images/avion.jpg);
+    background-size: 10%;   
+    background-repeat: no-repeat;
+    background-position: right;
+}
+  
+.in2{
+    background-image: url(/images/calendrier.png);
+    background-size: 8%;   
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.in3{
+    background-image: url(/images/tshirt.jpg);
+    background-size: 10%;   
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+.send{
+    border-radius: 5px;
+    border: 2px solid #1d3461;
+    background-color: #1d3461;
+    color: white;
+    cursor: pointer;
+    
+}
